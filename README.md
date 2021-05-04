@@ -1,24 +1,15 @@
-# boolgram
+# Boolgram
 
-## Project setup
-```
-npm install
-```
+## Creazione di un'applicazione che replica il funzionamento di Instagram Web.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+In particolare creeremo il blocco delle storie e dei post presi da una API, e profili di conoscenti.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Tecnologie
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue 
+- CLI 
+- Javascript 
+- Scss
+- Axios
+

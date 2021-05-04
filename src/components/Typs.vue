@@ -1,12 +1,12 @@
 <template>
-  <div class="wrapper-main">
+  <div class="">
  
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main',
+  name: 'Typs',
   props: {
 
   }

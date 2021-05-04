@@ -1,22 +1,28 @@
 <template>
   <div id="app">
-    <Nav/>
-    <Main/>
+    <header>
+      <nav-component />
+    </header>
+    <main>
+      <content-component />
+      <sidebar />
+    </main>
   </div>
 </template>
 
 <script>
-import Main from './components/Main.vue'
-import Nav from './components/Nav.vue'
+import NavComponent from "./components/NavComponent.vue";
+import ContentComponent from "./components/ContentComponent.vue";
+import Sidebar from "./components/Sidebar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Main,
-    Nav
- 
-  }
-}
+    NavComponent,
+    ContentComponent,
+    Sidebar,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -24,6 +30,10 @@ export default {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+header {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.46);
 }
 
 #app {

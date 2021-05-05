@@ -29,7 +29,7 @@ export default {
 .navbar {
   @include container;
   @include flex-center;
-  padding: 10px 10px;
+  margin-bottom: 15px;
 
   // logo
   .logo {

@@ -36,6 +36,7 @@ export default {
 
 main {
   @include container;
+  display: flex;
 }
 
 header {

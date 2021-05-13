@@ -1,24 +1,39 @@
 <template>
-  <div class="">
+  <div class="sidebar">
     <user-profile />
-    <typs />
-    <footer-component />
+    <tips />
+    <footer>
+      <p>© 2021 Instagram from facebook</p>
+    </footer>
   </div>
 </template>
 
 <script>
 import UserProfile from "./UserProfile.vue";
-import Typs from "./Typs.vue";
-import FooterComponent from "./FooterComponent.vue";
+import Tips from "./Tips.vue";
+
 export default {
   name: "Sidebar",
   components: {
     UserProfile,
-    Typs,
-    FooterComponent
+    Tips,
   },
   props: {},
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.sidebar {
+  width: 40%;
+  padding: 20px 0px 0px 50px;
+
+
+  footer {
+    margin-top: 50px;
+    color: #cccccc;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+</style>
